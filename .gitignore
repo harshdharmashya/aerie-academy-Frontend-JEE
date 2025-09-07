@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Local environment overrides
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vite cache (if using Vite)
+.vite/
+
+# Log files
+*.log
+package-lock.json
