@@ -13,30 +13,30 @@ const Team = () => {
     },
     {
       id: 2,
-      image: '/2.png',
-      name1:'Ar. Kanishk',
-      name2:'Sharma',
-      study1:'IIT',
-      study2:'Roorkee'
-    },
-    {
-      id: 3,
-      image: '/3.png',
-      name1:'Ar. Riya',
-      name2:'Varshney',
-      study1:'MANIT',
-      study2:'Bhopal'
-    },
-    {
-      id: 4,
-      image: '/4.png',
-      name1:'Sidhhant',
-      name2:'Asati',
+      image: './images/Team/image10.png',
+      name1:'Ar. Aditya',
+      name2:'Chinchkar',
       study1:'IIT',
       study2:'Kharagpur'
     },
+    // {
+    //   id: 2,
+    //   image: '/2.png',
+    //   name1:'Ar. Kanishk',
+    //   name2:'Sharma',
+    //   study1:'IIT',
+    //   study2:'Roorkee'
+    // },
     {
-      id: 5,
+      id: 3,
+      image: './images/Team/image11.png',
+      name1:'Gatikrushna',
+      name2:'Mahapatra',
+      study1:'IIT',
+      study2:'Hyderabad'
+    },
+    {
+      id: 4,
       image: '/5.png',
       name1:'Ar. Ruchika',
       name2:'Sharma',
@@ -44,13 +44,45 @@ const Team = () => {
       study2:''
     },
     {
+      id: 5,
+      image: './images/Team/image9.png',
+      name1:'Shailendra',
+      name2:'Kumar',
+      study1:'BITS',
+      study2:'MESRA'
+    },
+    {
       id: 6,
-      image: '/6.png',
-      name1:'Bhavya',
-      name2:'Ary',
-      study1:'SSC,',
-      study2:'CGL'
-    }
+      image: './images/Team/image12.png',
+      name1:'Surbhi',
+      name2:'Bajaj',
+      study1:'Florence Art',
+      study2:'Acadmey, Italy'
+    },
+    {
+      id: 7,
+      image: '/3.png',
+      name1:'Ar. Riya',
+      name2:'Varshney',
+      study1:'MANIT',
+      study2:'Bhopal'
+    },
+    // {
+    //   id: 4,
+    //   image: '/4.png',
+    //   name1:'Sidhhant',
+    //   name2:'Asati',
+    //   study1:'IIT',
+    //   study2:'Kharagpur'
+    // },
+    // {
+    //   id: 6,
+    //   image: '/6.png',
+    //   name1:'Bhavya',
+    //   name2:'Ary',
+    //   study1:'SSC,',
+    //   study2:'CGL'
+    // }
   ];
   const settings = {
     dots: false,

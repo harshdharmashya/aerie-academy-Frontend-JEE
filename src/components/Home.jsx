@@ -1,7 +1,6 @@
 import Navbar from './Navbar'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Selection from './Selection';
 import Team from './Team';
 import FAQ from './FAQ';
 import EnquiryModal from './EnquiryModal';
@@ -11,9 +10,10 @@ import { Typewriter } from 'react-simple-typewriter';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PaymentPlans from './PaymentPlans';
-import Testimonials from './Testimonials';
 import DemoBookingForm from './DemoFormBooking';
 import CallbackBar from './CallBackBar';
+import Selection from './Selection';
+import Courses from './Cources';
 
 export default function About() {
     const videoRef = useRef(null);
@@ -84,7 +84,7 @@ export default function About() {
         { img: '4.png', tittle: 'Mocks & Exam Strategy Workshops', subTitle: 'Simulate exam conditions to build confidence quickly.' },
         { img: '5.png', tittle: 'Curated e-Books & Study Material', subTitle: 'Hand-picked resources to maximize your learning efficiency.' },
         { img: '6.png', tittle: 'Live One-on-One Doubt Solving', subTitle: 'Personal mentorship addressing your learning challenges.' },
-        { img: '7.png', tittle: 'Previous Year GATE Solved Questions', subTitle: 'Master exam patterns through real question analysis.' },
+        { img: '7.png', tittle: 'Previous Year Solved Questions', subTitle: 'Master exam patterns through real question analysis.' },
         { img: '8.png', tittle: '1-on-1 Mentorship for Personalized Guidance', subTitle: 'Customized strategies for your unique learning journey.' },
     ]
     useEffect(() => {
@@ -120,7 +120,7 @@ export default function About() {
                                     delaySpeed={1000}
                                 />
                             </span>
-                            program for GATE 2026 Architecture & Planning?
+                            program for JEE Paper 2 / NATA / UCEED
                         </p>
 
                         <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-left">
@@ -178,9 +178,9 @@ export default function About() {
                     </div>
                 </div>
             </section>
-            <CallbackBar openModal={openModal} closeModal={closeModal}/>
+            <CallbackBar openModal={openModal} closeModal={closeModal} />
             <DemoBookingForm />
-            <Selection />
+            < Courses />
             <section id='features' className='min-h-screen text-center px-4 py-10 bg-white'>
                 <div className="mb-8">
                     <p className="text-lg text-gray-700">Why You Should Choose Us?</p>
@@ -213,8 +213,6 @@ export default function About() {
             </section>
             <Team />
             <PaymentPlans />
-            {/* <Demo /> */}
-            <Testimonials />
             <FAQ />
             <EnquiryModal isOpen={isModalOpen} onClose={closeModal} />
         </>

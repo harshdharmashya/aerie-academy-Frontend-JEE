@@ -6,7 +6,7 @@ const Selection = () => {
     dots: false,
     infinite: true,
     speed: 1500,
-    slidesToShow: 5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -28,22 +28,10 @@ const Selection = () => {
   };
 
   const selection = [
-    { id: 1, image: '1.png' },
-    { id: 2, image: '2.png' },
-    { id: 3, image: '3.png' },
-    { id: 4, image: '4.png' },
-    { id: 5, image: '5.png' },
-    { id: 6, image: '6.png' },
-    { id: 7, image: '7.png' },
-    { id: 8, image: '8.png' },
-    { id: 17, image: '17.png' },
-    { id: 10, image: '10.png' },
-    { id: 11, image: '11.png' },
-    { id: 12, image: '12.png' },
-    { id: 13, image: '13.png' },
-    { id: 14, image: '14.png' },
-    { id: 15, image: '15.png' },
-    { id: 16, image: '16.png' },
+    { id: 1, image: './images/Courses/Course 1.jpg' },
+    { id: 2, image: './images/Courses/Course 2.jpg' },
+    { id: 3, image: './images/Courses/Course 3.jpg' },
+    { id: 4, image: './images/Courses/Course 4.png' },
   ];
 
   return (
@@ -59,7 +47,7 @@ const Selection = () => {
             <div key={item.id} className="px-2">
               <div className="bg-white h-50 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
                 <img
-                  src={`../images/selection/${item.image}`} // Adjust the path as necessary
+                  src={`${item.image}`} // Adjust the path as necessary
                   alt={`Selection ${item.id}`}
                   className="h-full w-full object-cover transition-transform duration-300 hover:scale-125"
                 />

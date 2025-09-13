@@ -24,7 +24,6 @@ const AdminLogin = () => {
     setIsLoading(true);
     setError('');
     
-    // Hardcoded admin credentials
     const ADMIN_EMAIL = 'kabrashailesh07@gmail.com';
     const ADMIN_PASSWORD = 'admin07';
 

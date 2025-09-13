@@ -12,16 +12,32 @@ const FAQ = () => {
   // FAQ data
   const faqItems = [
     {
-      question: "What is the duration of the GATE 2026 Architecture & Planning Course?",
-      answer: "The course is designed to be valid until the GATE 2026 exam, ensuring comprehensive preparation up to the exam date."
+      question: "What is the difference between the JEE Main B.Arch Paper, NATA, and UCEED?",
+      answer: "These are the three main entrance exams for design and architecture programs in India. JEE Main Paper 2 (B.Arch) is for admission into Bachelor of Architecture programs at NITs, IITs, and other centrally funded technical institutions, with a strong focus on Mathematics and Aptitude. NATA (National Aptitude Test in Architecture) is the primary gateway for B.Arch admission into colleges across the rest of India, with a greater emphasis on drawing and architectural aptitude. UCEED (Undergraduate Common Entrance Examination for Design) is specifically for admission to Bachelor of Design (B.Des) programs at IITs and some other prestigious design colleges."
+    },
+    {
+      question: "Which exam should I focus on?",
+      answer: "It's highly recommended to prepare for all three exams, as they share a lot of common ground in terms of aptitude and design skills. The JEE Main Paper 2 and NATA are both essential for B.Arch admissions, while UCEED is your path to a B.Des degree. Our course is designed to cover the syllabi for all three, giving you the flexibility to apply to a wider range of colleges and courses."
+    },
+    {
+      question: "Is the syllabus the same for all three exams?",
+      answer: "No, the syllabi have different emphases, though they do overlap. All three exams test your general aptitude (logical reasoning, mental ability) and design skills. However, JEE Main B.Arch has a strong focus on Mathematics, NATA emphasizes a range of drawing skills, and UCEED focuses on design aptitude and creative ability. Our course covers the unique requirements of each exam."
+    },
+    {
+      question: "How is the drawing section of the exams covered?",
+      answer: "For the drawing sections of both JEE Main B.Arch and NATA, our course includes dedicated live sessions and assignments. We provide detailed feedback on your sketches, focusing on key skills like perspective drawing, composition, and rendering. For UCEED, the focus is on creative and design-based sketching exercises that test your problem-solving abilities."
+    },
+    {
+      question: "What is the duration of the JEE B.Arch 2026 Course?",
+      answer: "The course is designed to be valid until the JEE Main April Attempt exam, ensuring comprehensive preparation up to the exam date."
     },
     {
       question: "Who are the instructors for this course?",
-      answer: "Our courses are led by experienced IITians, GATE toppers, and industry experts, providing in-depth knowledge and practical insights."
+      answer: "Our courses are led by experienced IITians, NATA toppers, and industry experts, providing in-depth knowledge and practical insights."
     },
     {
       question: "What study materials are provided?",
-      answer: "Enrollees receive curated subject-wise e-books, access to over 1,000 practice questions, previous year solved question papers, and more."
+      answer: "You will receive a complete set of study materials, including detailed notes, practice questions, and access to our online video lectures and live classes. The materials are curated by subject matter experts to align with the latest exam patterns."
     },
     {
       question: "Are there live classes, and what if I miss one?",
@@ -37,20 +53,12 @@ const FAQ = () => {
     },
     {
       question: "Is there a community for peer interaction?",
-      answer: "Yes, students can join our exclusive WhatsApp group to receive updates, share resources, and engage with fellow aspirants."
+      answer: "Yes, students can join our exclusive WhatsApp group to receive updates, share resources, and engage with fellow aspirants"
     },
     {
       question: "What are the payment options available?",
-      answer: "We offer up to 40% scholarships based on merit and need, along with easy payment plans that allow you to pay in monthly installments."
+      answer: "We offer up to 20% discount based on merit and need, along with easy payment plans that allow you to pay in monthly installments."
     },
-    {
-      question: "How can I enroll in the course?",
-      answer: "You can enroll by visiting our website's course page and following the enrollment instructions. For personalized guidance, feel free to schedule a free consultation call with our advisors."
-    },
-    {
-      question: "Is there a trial period or demo available?",
-      answer: "Yes, we offer a free demo video to help you understand our teaching methodology and course structure before making a commitment."
-    }
   ];
 
   // Toggle FAQ item

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const DemoBookingForm = () => {
@@ -61,7 +61,8 @@ const DemoBookingForm = () => {
 
     try {
       const response = await axios.post(
-        `https://aerie-academy-backend.vercel.app/api/contact`,
+        // `https://aerie-academy-backend.vercel.app/api/contact`,
+        `http://localhost:4000/api/contact/allContacts/api/contact`,
         formData
       );
 
@@ -83,6 +84,10 @@ const DemoBookingForm = () => {
       setIsSubmitting(false);
     }
   };
+  useEffect(() => {
+        setIsSubmitting(true);
+
+  }, []);
 
   return (
     <section className="flex justify-center items-center h-[70vh] bg-white text-center px-4 py-5 pb-0 mt-[80px]">
