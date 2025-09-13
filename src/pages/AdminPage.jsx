@@ -24,8 +24,8 @@ const AdminDashboard = () => {
       try {
         console.log("hello1");
         const response = await axios.get(
-          // `https://aerie-academy-backend.vercel.app/api/contact/allContacts`,
-          `http://localhost:4000/api/contact/allContacts`,
+          `https://aerie-academy-backend-jee.vercel.app/api/contact/allContacts`,
+          // `http://localhost:5000/api/contact/allContacts`,
           // {
           //   headers: {
           //     Authorization: `Bearer ${adminToken}`

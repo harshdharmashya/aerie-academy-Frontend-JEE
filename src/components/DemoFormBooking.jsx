@@ -61,8 +61,8 @@ const DemoBookingForm = () => {
 
     try {
       const response = await axios.post(
-        // `https://aerie-academy-backend.vercel.app/api/contact`,
-        `http://localhost:4000/api/contact/allContacts/api/contact`,
+        `https://aerie-academy-backend-jee.vercel.app/api/contact`,
+        // `http://localhost:5000/api/contact/allContacts/api/contact`,
         formData
       );
 
