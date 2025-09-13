@@ -16,7 +16,7 @@ const CallbackBar = (props) => {
 
     //     try {
     //         setLoading(true);
-    //         await axios.post('https://aerie-academy-backend.vercel.app/api/contact', { phone: mobile, name: 'Callback Lead', email: 'callback@noemail.com', }, { headers: { 'Content-Type': 'application/json' } });
+    //         await axios.post('https://aerie-academy-backend-jee.vercel.app/api/contact', { phone: mobile, name: 'Callback Lead', email: 'callback@noemail.com', }, { headers: { 'Content-Type': 'application/json' } });
     //         setSuccessMsg('Thank you! Our advisor will call you shortly.');
     //         setMobile('');
     //     } catch (error) {
