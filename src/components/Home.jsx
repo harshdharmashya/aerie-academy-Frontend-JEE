@@ -99,11 +99,11 @@ export default function About() {
     return (
         <>
             <Navbar />
-            <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="min-h-screen md:h-[110vh] flex justify-center items-center px-5 sm:px-10 text-center relative py-10">
-                <div className="w-full max-w-6xl flex flex-col md:flex-row gap-10">
+            <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="min-h-screen md:h-[100vh] flex px-5 sm:px-10 relative py-10 text-center">
+                {/* <div className="w-full max-w-6xl flex flex-col md:flex-row gap-10"> */}
                     {/* Left Text Section */}
                     <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
-                        <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-white leading-snug text-left">
+                        <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] lg:text-center text-white leading-snug text-left">
                             Are you looking for {' '}
                             <span className="text-yellow-400 block">
                                 <Typewriter
@@ -123,7 +123,7 @@ export default function About() {
                             program for JEE Paper 2 / NATA / UCEED
                         </p>
 
-                        <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-left">
+                        <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-left lg:text-center">
                             Join 3000+ students who’ve trusted Aerie to crack IITs, NITs & SPAs
                         </p>
 
@@ -136,7 +136,7 @@ export default function About() {
                     </div>
 
                     {/* Right Video Section */}
-                    <div className="flex-1 w-full md:w-1/2 flex justify-center items-center ">
+                    {/* <div className="flex-1 w-full md:w-1/2 flex justify-center items-center ">
                         <div className="w-full  aspect-[9/16] rounded-xl overflow-hidden shadow-lg max-w-[360px] sm:max-w-[300px] md:max-w-[360px]">
                             <video
                                 ref={videoRef}
@@ -148,8 +148,8 @@ export default function About() {
                                 className="w-full object-cover rounded-xl h-[500px] md:mt-8"
                             />
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+                {/* </div> */}
 
                 {/* Features Section */}
                 <div className="w-[95%] sm:w-4/5 bg-white rounded-xl overflow-hidden px-4 py-6 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 shadow-[1px_3px_15px_gray]">

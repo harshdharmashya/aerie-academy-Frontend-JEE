@@ -148,7 +148,7 @@ const DemoBookingForm = () => {
             disabled={isSubmitting}
             className="bg-indigo-600 mt-[20px] text-white hover:bg-indigo-700 px-8 py-2 rounded-[50px] font-medium text-lg inline-flex items-center gap-2 transition-colors shadow-lg disabled:opacity-50"
           >
-            {isSubmitting ? 'Submitting...' : 'BOOK FREE DEMO'}
+            {isSubmitting ? 'Submitted' : 'BOOK FREE DEMO'}
           </button>
         </form>
 
