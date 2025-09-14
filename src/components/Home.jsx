@@ -99,11 +99,11 @@ export default function About() {
     return (
         <>
             <Navbar />
-            <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="min-h-screen md:h-[100vh] flex px-5 sm:px-10 relative py-10 text-center">
+            <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="h-[65vh] md:h-[100vh] flex px-5 sm:px-10 relative py-10 text-center">
                 {/* <div className="w-full max-w-6xl flex flex-col md:flex-row gap-10"> */}
                     {/* Left Text Section */}
                     <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
-                        <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] lg:text-center text-white leading-snug text-left">
+                        <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-center text-white leading-snug">
                             Are you looking for {' '}
                             <span className="text-yellow-400 block">
                                 <Typewriter
@@ -123,7 +123,7 @@ export default function About() {
                             program for JEE Paper 2 / NATA / UCEED
                         </p>
 
-                        <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-left lg:text-center">
+                        <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-center">
                             Join 3000+ students who’ve trusted Aerie to crack IITs, NITs & SPAs
                         </p>
 
