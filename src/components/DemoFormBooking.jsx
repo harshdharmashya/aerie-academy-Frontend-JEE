@@ -84,10 +84,6 @@ const DemoBookingForm = () => {
       setIsSubmitting(false);
     }
   };
-  useEffect(() => {
-        setIsSubmitting(true);
-
-  }, []);
 
   return (
     <section className="flex justify-center items-center h-[70vh] bg-white text-center px-4 py-5 pb-0">
