@@ -12,28 +12,29 @@ const PaymentPlans = () => {
   const stats = [
     {
       label: 'Get up to 40% scholarship based on merit & need',
-      bgColor: 'bg-amber-50',
-      textColor: 'text-amber-900',
-      icon: <GraduationCap className="w-10 h-10 text-amber-600" />
-    },
-    {
-      label: 'Easy payment plans – Pay in monthly instalments',
-      bgColor: 'bg-pink-50',
-      textColor: 'text-pink-900',
-      icon: <FileText className="w-10 h-10 text-pink-600" />
+      bgColor: 'bg-indigo-100',
+      textColor: 'text-indigo-900',
+      icon: <GraduationCap className="w-10 h-10 text-indigo-600" />
     },
     {
       label: 'No hidden charges, transparent pricing',
-      bgColor: 'bg-blue-50',
-      textColor: 'text-blue-900',
-      icon: <FileCheck className="w-10 h-10 text-blue-600" />
+      bgColor: 'bg-emerald-100',
+      textColor: 'text-emerald-900',
+      icon: <FileCheck className="w-10 h-10 text-emerald-600" />
+    },
+    {
+      label: 'Easy payment plans – Pay in monthly instalments',
+      bgColor: 'bg-rose-100',
+      textColor: 'text-rose-900',
+      icon: <FileText className="w-10 h-10 text-rose-600" />
     }
   ];
 
 
 
+
   return (
-    <section className="py-16 px-6">
+    <section className="py-16 px-6 bg-gradient-to-b from-blue-50 to-indigo-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">Affordable & Flexible Payment Plans</h2>

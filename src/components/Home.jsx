@@ -101,42 +101,42 @@ export default function About() {
             <Navbar />
             <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="h-[65vh] md:h-[100vh] flex px-5 sm:px-10 relative py-10 text-center">
                 {/* <div className="w-full max-w-6xl flex flex-col md:flex-row gap-10"> */}
-                    {/* Left Text Section */}
-                    <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
-                        <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-center text-white leading-snug">
-                            Are you looking for {' '}
-                            <span className="text-yellow-400 block">
-                                <Typewriter
-                                    words={[
-                                        'structured',
-                                        'supportive',
-                                        'result-driven'
-                                    ]}
-                                    loop={true}
-                                    cursor
-                                    cursorStyle="|"
-                                    typeSpeed={70}
-                                    deleteSpeed={50}
-                                    delaySpeed={1000}
-                                />
-                            </span>
-                            program for JEE Paper 2 / NATA / UCEED
-                        </p>
+                {/* Left Text Section */}
+                <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
+                    <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-center text-white leading-snug">
+                        Are you looking for {' '}
+                        <span className="text-yellow-400 block">
+                            <Typewriter
+                                words={[
+                                    'structured',
+                                    'supportive',
+                                    'result-driven'
+                                ]}
+                                loop={true}
+                                cursor
+                                cursorStyle="|"
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                        </span>
+                        program for JEE Paper 2 / NATA / UCEED
+                    </p>
 
-                        <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-center">
-                            Join 3000+ students who’ve trusted Aerie to crack IITs, NITs & SPAs
-                        </p>
+                    <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-center">
+                        Join 3000+ students who’ve trusted Aerie to crack IITs, NITs & SPAs
+                    </p>
 
-                        <button
-                            onClick={openModal}
-                            className="bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-full mt-6 font-medium text-base sm:text-lg inline-flex items-center gap-2 transition-colors shadow-lg"
-                        >
-                            BOOK FREE DEMO
-                        </button>
-                    </div>
+                    <button
+                        onClick={openModal}
+                        className="bg-indigo-600 text-white hover:bg-indigo-700 px-6 py-3 rounded-full mt-6 font-medium text-base sm:text-lg inline-flex items-center gap-2 transition-colors shadow-lg"
+                    >
+                        BOOK FREE DEMO
+                    </button>
+                </div>
 
-                    {/* Right Video Section */}
-                    {/* <div className="flex-1 w-full md:w-1/2 flex justify-center items-center ">
+                {/* Right Video Section */}
+                {/* <div className="flex-1 w-full md:w-1/2 flex justify-center items-center ">
                         <div className="w-full  aspect-[9/16] rounded-xl overflow-hidden shadow-lg max-w-[360px] sm:max-w-[300px] md:max-w-[360px]">
                             <video
                                 ref={videoRef}
@@ -179,6 +179,7 @@ export default function About() {
                 </div>
             </section>
             <CallbackBar openModal={openModal} closeModal={closeModal} />
+            <Team />
             <DemoBookingForm />
             < Courses />
             <section id='features' className='min-h-screen text-center px-4 py-10 bg-white'>
@@ -211,7 +212,6 @@ export default function About() {
                     BOOK FREE DEMO
                 </button>
             </section>
-            <Team />
             <PaymentPlans />
             <FAQ />
             <EnquiryModal isOpen={isModalOpen} onClose={closeModal} />

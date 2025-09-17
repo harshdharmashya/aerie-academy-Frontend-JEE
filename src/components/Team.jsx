@@ -110,7 +110,7 @@ const Team = () => {
   };
 
   return (
-    <section id="team" className="py-12 bg-blue-100 text-center">
+    <section id="team" className="py-12 bg-gradient-to-b from-blue-50 to-indigo-50 text-center pt-[150px] lg:pt-[100px]">
       <div className="mb-8">
         <p className="text-lg text-gray-700">How We Have done it?</p>
         <h2 className="text-3xl font-semibold text-black">Meet Our Experienced Team</h2>
