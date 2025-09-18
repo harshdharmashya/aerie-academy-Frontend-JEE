@@ -108,9 +108,9 @@ export default function About() {
                         <span className="text-yellow-400 block">
                             <Typewriter
                                 words={[
-                                    'structured',
-                                    'supportive',
-                                    'result-driven'
+                                    'best institute',
+                                    'best courses',
+                                    'Top 1% institutes'
                                 ]}
                                 loop={true}
                                 cursor
@@ -120,7 +120,7 @@ export default function About() {
                                 delaySpeed={1000}
                             />
                         </span>
-                        program for JEE Paper 2 / NATA / UCEED
+                        for JEE Paper 2 / NATA / UCEED program?
                     </p>
 
                     <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-center">
@@ -187,21 +187,30 @@ export default function About() {
                     <p className="text-lg text-gray-700">Why You Should Choose Us?</p>
                     <h2 className="text-3xl font-semibold text-black">Why Aerie Academy?</h2>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 sm:gap-6 sm:p-6">
                     {allFeatures.map((feature, index) => (
                         <div
                             key={index}
-                            className="bg-white rounded-2xl overflow-hidden shadow-[2px_7px_10px_gray] p-4 w-full h-full flex flex-col hover:-translate-y-2 transition-transform duration-300"
+                            className="bg-white rounded-xl overflow-hidden shadow-[2px_7px_10px_gray] p-3 sm:p-4 flex flex-col hover:-translate-y-2 transition-transform duration-300"
                         >
-                            <div className="mb-4">
+                            {/* Image (fixed height for alignment) */}
+                            <div className="mb-3 sm:mb-4">
                                 <img
-                                    src={`../images/features/${feature.img}`} // Adjust the path as necessary
+                                    src={`../images/features/${feature.img}`}
                                     alt={feature.tittle}
-                                    className="w-full h-48 object-cover rounded-lg"
+                                    className="w-full h-28 sm:h-40 md:h-48 object-cover rounded-lg"
                                 />
                             </div>
-                            <h3 className="text-lg font-semibold text-gray-800">{feature.tittle}</h3>
-                            <p className="text-gray-600 mt-2">{feature.subTitle}</p>
+
+                            {/* Text content (flex-grow ensures same alignment across cards) */}
+                            <div className="flex flex-col flex-grow justify-between">
+                                <h3 className="text-sm sm:text-base md:text-lg font-semibold text-gray-800 text-center">
+                                    {feature.tittle}
+                                </h3>
+                                <p className="text-xs sm:text-sm md:text-base text-gray-600 mt-1 sm:mt-2 line-clamp-3 text-center">
+                                    {feature.subTitle}
+                                </p>
+                            </div>
                         </div>
                     ))}
                 </div>
@@ -212,7 +221,7 @@ export default function About() {
                     BOOK FREE DEMO
                 </button>
             </section>
-            <PaymentPlans />
+            {/* <PaymentPlans /> */}
             <FAQ />
             <EnquiryModal isOpen={isModalOpen} onClose={closeModal} />
         </>
