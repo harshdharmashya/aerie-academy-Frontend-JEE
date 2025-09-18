@@ -33,19 +33,26 @@ const CallbackBar = (props) => {
                 {/* CTA Button */}
                 <button
                     onClick={props.openModal}
-                    className="flex items-center gap-2 px-6 sm:px-8 py-2 sm:py-2.5 text-white bg-emerald-500 hover:bg-emerald-600 font-semibold rounded-full transition duration-300 shadow-md"
+                    className="flex items-center gap-2 px-6 sm:px-6 py-2 sm:py-2 
+             text-sm sm:text-base md:text-lg 
+             text-white bg-emerald-500 hover:bg-emerald-600 
+             font-semibold rounded-full transition duration-300 shadow-md"
                 >
                     BOOK FREE DEMO
                     <CircleChevronRight className="w-5 h-5" />
                 </button>
+
                 <a
-                        href=''
-                    className="flex items-center gap-2 px-6 sm:px-8 py-2 sm:py-2.5 text-white bg-emerald-500 hover:bg-emerald-600 font-semibold rounded-full transition duration-300 shadow-md"
+                    href=""
+                    className="flex items-center gap-2 px-6 sm:px-6 py-2 sm:py-2
+             text-sm sm:text-base md:text-lg 
+             text-white bg-emerald-500 hover:bg-emerald-600 
+             font-semibold rounded-full transition duration-300 shadow-md"
                 >
                     What's app
                     <MessageCircleMore className="w-5 h-5" />
-
                 </a>
+
 
                 {/* Success Message */}
                 {successMsg && (

@@ -104,8 +104,8 @@ export default function About() {
                 {/* Left Text Section */}
                 <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
                     <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-center text-white leading-snug">
-                        Are you looking for {' '}
-                        <span className="text-yellow-400 block">
+                        Are you looking for structured, supportive<p>and result-driven for</p><span className="text-yellow-400 block">JEE Paper 2 / NATA / UCEED program <span className='text-white'>?</span></span>
+                        {/* <span className="text-yellow-400 block">
                             <Typewriter
                                 words={[
                                     'best institute',
@@ -119,8 +119,7 @@ export default function About() {
                                 deleteSpeed={50}
                                 delaySpeed={1000}
                             />
-                        </span>
-                        for JEE Paper 2 / NATA / UCEED program?
+                        </span> */}
                     </p>
 
                     <p className="text-[1rem] sm:text-[1.1rem] md:text-[1.3rem] mt-4 text-white text-center">
