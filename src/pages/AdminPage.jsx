@@ -19,28 +19,30 @@ const AdminDashboard = () => {
     }
 
     // Fetch contacts data
+    // `http://localhost:5000/api/contact/allContacts`,
     const fetchContacts = async () => {
       setIsLoading(true);
       try {
-        console.log("hello1");
         const response = await axios.get(
-          `https://aerie-academy-backend-jee.vercel.app/api/contact/allContacts`,
-          // `http://localhost:5000/api/contact/allContacts`,
-          // {
-          //   headers: {
-          //     Authorization: `Bearer ${adminToken}`
-          //   }
-          // }
+          `https://aerie-academy-backend-jee.vercel.app/api/contact/allContacts`
         );
-        
-        if (response.data.success) {
+
+        console.log("API Response:", response.data);
+
+        // Case 1: backend wraps data in { success, data }
+        if (response.data.success && Array.isArray(response.data.data)) {
           setContacts(response.data.data);
-        } else {
-          setError('Failed to fetch contacts data');
+        }
+        // Case 2: backend directly returns an array
+        else if (Array.isArray(response.data)) {
+          setContacts(response.data);
+        }
+        else {
+          setError("Unexpected response format");
         }
       } catch (err) {
-        console.error('Error fetching contacts:', err);
-        setError('Error connecting to the server. Please try again later.');
+        console.error("Error fetching contacts:", err);
+        setError("Error connecting to the server. Please try again later.");
       } finally {
         setIsLoading(false);
       }
@@ -66,7 +68,7 @@ const AdminDashboard = () => {
               </div>
             </div>
             <div className="flex items-center">
-             
+
               <button
                 onClick={handleLogout}
                 className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
