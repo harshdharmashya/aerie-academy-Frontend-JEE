@@ -43,7 +43,9 @@ const CallbackBar = (props) => {
                 </button>
 
                 <a
-                    href=""
+                    href="https://wa.me/919980933490"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 px-6 sm:px-6 py-2 sm:py-2
              text-sm sm:text-base md:text-lg 
              text-white bg-emerald-500 hover:bg-emerald-600 
