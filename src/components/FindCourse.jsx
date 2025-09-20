@@ -19,7 +19,7 @@ const FindCourse = () => {
 
             </h1>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl">
-            Master concepts, crack GATE, and secure your dream future. Don’t let time slip away—start today!
+            Master concepts, crack JEE, and secure your dream future. Don’t let time slip away—start today!
 
             </p>
             <div className="flex items-center gap-8">

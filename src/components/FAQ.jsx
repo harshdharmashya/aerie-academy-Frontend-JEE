@@ -74,7 +74,7 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Got Questions? We Have Answers</h2>
-            <p className="text-gray-600">Find answers to the most common questions about our GATE preparation courses</p>
+            <p className="text-gray-600">Find answers to the most common questions about our JEE Paper 2 / NATA / UCEED program preparation courses</p>
           </div>
 
           <div className="space-y-4 mb-10">

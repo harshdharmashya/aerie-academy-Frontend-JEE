@@ -198,7 +198,7 @@ const HeroBanner = () => {
                 >
                   <img 
                     src={banner} 
-                    alt={`GATE 2026 Architecture & Planning Banner ${index + 1}`} 
+                    alt={`JEE Paper 2 / NATA / UCEED program ${index + 1}`} 
                     className="w-full h-full object-cover object-top md:object-center"
                     onError={(e) => {
                       e.target.onerror = null;

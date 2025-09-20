@@ -15,7 +15,7 @@ const Footer = () => {
                 className="h-20 mb-4"
               />
               <p className="text-gray-600 mt-4">
-                Empowering aspirants to achieve excellence in GATE examinations.
+                Empowering aspirants to achieve excellence in JEE examinations.
               </p>
             </div>
             
