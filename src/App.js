@@ -11,7 +11,6 @@ import CourseFeatures from './components/CourseFeatures';
 import YouTube from './components/Youtube';
 import Teachers from './components/Teachers';
 import PaymentPlans from './components/PaymentPlans';
-import SuccessStories from './components/SuccessStories';
 import FAQ from './components/FAQ';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
@@ -38,9 +37,6 @@ const MainLayout = () => {
         <YouTube />
         <Teachers />
         <PaymentPlans />
-        <div id="success-stories">
-          <SuccessStories />
-        </div>
         <div id="faq">
           <FAQ />
         </div>
