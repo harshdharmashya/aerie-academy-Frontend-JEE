@@ -102,9 +102,9 @@ export default function About() {
             <section style={{ background: "linear-gradient(to right, #0f172a, #4d71c5)" }} className="h-[65vh] md:h-[100vh] flex px-5 sm:px-10 relative py-10 text-center">
                 {/* <div className="w-full max-w-6xl flex flex-col md:flex-row gap-10"> */}
                 {/* Left Text Section */}
-                <div className="flex-1 w-full md:w-1/2 md:mt-[40px]">
-                    <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3rem] text-center text-white leading-snug">
-                        Are you looking for structured, supportive<p>and result-driven for</p><span className="text-yellow-400 block">JEE Paper 2 / NATA / UCEED program <span className='text-white'>?</span></span>
+                <div className="flex-1 w-full md:w-1/2 md:mt-[20px]">
+                    <p className="text-[1.8rem] sm:text-[2.2rem] md:text-[2.5rem] lg:text-[3.5rem] text-center text-white leading-snug">
+                        Are you looking for structured, supportive<p>and result-driven program for</p><span className="text-yellow-400 block">JEE Paper 2 / NATA / UCEED <span className='text-white'>?</span></span>
                         {/* <span className="text-yellow-400 block">
                             <Typewriter
                                 words={[

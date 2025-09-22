@@ -13,11 +13,11 @@ const CallToAction = () => {
     <section className="pt-[4rem] pb-[5rem] px-6 bg-white text-gray-800">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-indigo-800">
-          Embark on Your JEE Paper 2 / NATA / UCEED program Success Journey with Aerie
+          Embark on Your program for JEE Paper 2 / NATA / UCEED Journey with Aerie
         </h2>
         
         <p className="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
-          With Aerie's expert guidance and comprehensive resources, your JEE Paper 2 / NATA / UCEED program success is within reach.
+          With Aerie's expert guidance and comprehensive resources, your program for JEE Paper 2 / NATA / UCEED success is within reach.
         </p>
         
         <div className="bg-gray-50 rounded-xl p-8 mb-10 shadow-md">

@@ -49,7 +49,7 @@ const courses = [
     ],
     tag: "Limited Offer",
     color: "from-green-500 to-emerald-600",
-    image: "./images/Courses/Course 3.jpg",
+    image: "./images/Courses/Course 4.png",
     duration: "8 months",
     students: "800+ enrolled",
     rating: 4.6,
@@ -66,10 +66,10 @@ const courses = [
     ],
     tag: "New",
     color: "from-purple-500 to-violet-600",
-    image: "./images/Courses/Course 4.png",
+    image: "./images/Courses/Course 3.jpg",
     duration: "9 months",
     students: "600+ enrolled",
-    rating: 4.5,
+    rating: 4.8,
   },
 ];
 
@@ -102,13 +102,13 @@ const Courses = () => {
                 className="relative rounded-2xl shadow-xl bg-white backdrop-blur-md overflow-hidden border border-white/10 group transition-all duration-300"
               >
                 {/* Tag */}
-                <span className={`absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full z-10 ${course.tag === "Best Seller" ? "bg-yellow-400 text-black" :
+                {/* <span className={`absolute top-4 left-4 text-xs font-semibold px-3 py-1 rounded-full z-10 ${course.tag === "Best Seller" ? "bg-yellow-400 text-black" :
                   course.tag === "Popular" ? "bg-pink-500 text-white" :
                     course.tag === "Limited Offer" ? "bg-green-500 text-white" :
                       "bg-purple-500 text-white"
                   }`}>
                   {course.tag}
-                </span>
+                </span> */}
 
                 {/* Discount badge */}
                 {/* <div className="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-md z-10">
@@ -116,7 +116,7 @@ const Courses = () => {
               </div> */}
 
                 {/* Image with gradient overlay */}
-                <div className="h-48 w-full overflow-hidden relative">
+                <div className="h-50 w-full overflow-hidden relative">
                   <div className={`absolute inset-0  z-10`}></div>
                   <img
                     src={course.image}

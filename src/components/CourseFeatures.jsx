@@ -64,7 +64,7 @@ const CourseFeatures = () => {
             <span className="absolute -bottom-2 left-0 w-full h-1 bg-blue-500 transform scale-x-0 transition-transform duration-500 origin-left group-hover:scale-x-100"></span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Comprehensive learning resources and support systems designed to ensure your success in JEE Paper 2 / NATA / UCEED program preparation
+            Comprehensive learning resources and support systems designed to ensure your success in JEE Paper 2 / NATA / UCEED preparation
           </p>
         </div>
 
